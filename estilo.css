@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.body1{
+    display: flex;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    margin-left: 52%;
+}
+
+
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    
+}
+
+.navigation a::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.5s;
+    
+}
+
+.navigation .btnLogin-popup:hover {
+    background: #fff;
+    color: #162938;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cols{
+    width: 60%;
+    white-space: nowrap; 
+}
+
+.topLine::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: aqua;
+}
+
+h1{
+    align-items: block;
+    font-size: 4em;
+    font-weight: 900;
+    color: #86bce0;
+    font-family: Comic Sans MS;
+    margin-left: 15%;
+    margin-top: 18%;
+    margin-bottom: 20%;
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+    
+}
+
+
+.multiText{
+    color:rgb(0, 119, 255);
+    text-transform: capitalize;
+    font-family: Comic Sans MS;
+    
+}
+
+p{
+    display: block;
+    width: 90%;
+    font-size: 1em;
+    color:rgb(0, 119, 255);
+    text-align: center;
+    font-family: Comic Sans MS;
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+    
+}
+
+p1{
+    display: block;
+    width: 90%;
+    font-size: 1em;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: Comic Sans MS;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+}
+
+.multiText1{
+    color: #86bce0;
+    text-transform: capitalize;
+    font-family: Comic Sans MS;
+}
+
+.h4{
+
+
+text-align: left;
+font-size: 2em;
+
+}
+
+.h{
+
+
+    text-align: left;
+    font-size: 1.2em;
+    
+    }
+
+.margem{
+
+    margin-left: 3%;
+    margin-right: 20%;
+    margin-top: 5%;
+    
+}
+
+.p3{
+
+     margin-right: 20% ;
+     margin-left: 3% ;
+    
+}
+
+.margem2{
+
+    margin-left: 3%;
+    margin-right: 20%;
+    margin-top: 5%;
+    color: #fff;
+    
+}
